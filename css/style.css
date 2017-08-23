@@ -1,0 +1,363 @@
+header {
+    font-size: 6ex;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 5px;
+}
+
+a#changeLanguage {
+    font-family: 微软雅黑;
+    font-size: 3ex;
+    font-style: italic;
+    float: right;
+    color: black;
+}
+
+footer {
+    font-size: 2ex;
+    font-family: 微软雅黑;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 5px;
+}
+
+body h1 {
+    font-family: 微软雅黑;
+    font-size: 3ex;
+    padding: 0px;
+    margin: 5px;
+}
+
+body h2 {
+    font-family: 微软雅黑;
+    font-size: 2ex;
+    padding: 0px;
+    margin: 4px;
+    text-align: center;
+}
+
+body section > article {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    padding: 10px 20px;
+    margin: 10px 10px;
+
+    font-family: 微软雅黑;
+    font-size: 2.5ex;
+    font-weight: bold;
+    background-color: white;
+}
+
+body section#intro > article {
+    display: inline-block;
+}
+
+body > section {
+    vertical-align: top; 
+}
+
+h1 hr {
+    height: 0.25ex;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    border-color: black;
+}
+
+section#part_1 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+section#part_1 figure {
+    float: left;
+}
+
+section#part_1 button {
+    background-color: transparent;
+    border-color: transparent;
+    border-width: 3px;
+    margin: 10px;
+}
+
+section#part_1 figure {
+    margin: 0px;
+    padding: 0px;
+}
+
+section#part_1 figure {
+    font-family: 微软雅黑;
+    font-size: 2ex;
+}
+
+section#part_1 p {
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+section#part_2 article {
+    display: inline-block;
+}
+
+article#ui > p {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 0px 10px 0px;
+}
+
+section#part_2 canvas {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+
+    width: 600px;
+    height: 600px;
+}
+
+section#part_1 {
+    display: block;
+}
+
+article#ui {
+    border: none;
+    background-color: transparent;
+    vertical-align: top;
+    margin: 10px;
+    padding: 0px;
+}
+
+email {
+    text-decoration: underline;
+}
+
+button#save_text {
+    padding: 3px 10px 10px 10px;
+    margin: 10px 10px 10px 60px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+    width: 350px;
+    height: 60px;
+
+    font-family: 微软雅黑;
+    font-size: 1.5ex;
+    text-align: center;
+    
+}
+
+button.adjustEN {
+    width: 120px;
+    height: 25px;
+
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color: black;
+}
+
+button.adjustCN {
+    width: 120px;
+    height: 25px;
+
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color: black;
+}
+
+input.input_frame {
+    height: 25px;
+    width: 250px;
+    vertical-align: middle;
+
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+
+    font-family: 微软雅黑;
+    font-size: 0.75ex;
+    text-align: center;
+    font-weight: bold;
+}
+
+p#saving {
+    padding: 0px;
+    background-color: transparent;
+    align-content: center;
+    border: none;
+}
+
+button#save_image {
+    padding: none;
+    margin: none;
+    
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+    width: 450px;
+    height: 60px;
+
+    font-family: 微软雅黑;
+    font-size: 1.5ex;
+    text-align: center;
+}
+
+@Media (max-width: 1500px) {
+    body section#intro > article {
+        display: block;
+    }
+
+    body section#part_1 > article {
+        display: block;
+        align-self: center;
+    }
+
+    body section#part_2 > article#ui > p {
+        display: block;
+        text-align: center;
+    }
+
+    body section#part_2 > article#drawing_Canvas {
+        margin: 10px 10px 10px 100px;
+    }
+
+    canvas {
+        padding: 0;
+        display: block;
+        margin: 10px 10px 10px 100px;
+    }
+
+    body section#part_2 > article#ui {
+        display: block;
+    }
+
+    body section#part_2 > button#save_image {
+        text-align: center;
+        width: 500px;
+        height: 80px;
+
+        font-size: 2ex;
+    }
+
+    button.adjustEN {
+        width: 120px;
+        height: 60px;
+        margin: 20px;
+
+        font-size: 1.3ex;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    button.adjustCN {
+        width: 180px;
+        height: 60px;
+        margin: 20px;
+
+        font-size: 2ex;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    input.input_frame {
+        font-size: 2ex;
+        width: 300px;
+        height: 60px;
+        font-weight: bold;
+    }
+
+    button#save_text {
+        width: 500px;
+        height: 80px;
+
+        font-size: 2ex;
+    }
+}
+
+@Media not print {
+    body {
+        background-color: #ADD8E6;
+    }
+
+    header {
+        background-color: #ffb6c1;
+    }
+
+    footer {
+        background-color: #C0C0C0;
+    }
+
+    body section#intro > article#intro1 {
+        background-color: #90EE90;
+    }
+    
+    body section#intro > article#intro2 {
+        background-color: #FFE4C4;
+    }
+
+    body section#intro > article#intro3 {
+        background-color: #F0FFF0;
+    }
+
+    body section#part_1 > p#phone {
+        background-color: #D8BFD8;
+    }
+
+    body section#part_1 > p#tiger {
+        background-color: #FFA500;
+    }
+
+    body section#part_1 > p#panda {
+        background-color: #B0C4DE;
+    }
+
+    email {
+        color: #B8860B;
+    }
+
+    section#part_2 p#control_panel {
+        background-color: #F08080;
+        vertical-align: top;
+    }
+
+    section#part_2 p#menu {
+        background-color: #D8BFD8;
+    }
+
+    button#save_text {
+        background-color: #DEB887
+    }
+
+    button.adjustCN {
+        background-color: #EEE8AA;
+    }
+
+    button.adjustEN {
+        background-color: #EEE8AA;
+    }
+
+    button#save_image {
+        background-color:  #F4A460;
+    }
+}
